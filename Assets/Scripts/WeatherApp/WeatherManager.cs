@@ -4,25 +4,6 @@ using UnityEngine.Networking;
 using System;
 using CleverTapPackage;
 
-// --- DATA MODELS ---
-[Serializable]
-public class WeatherResponse
-{
-    public float latitude;
-    public float longitude;
-    public string timezone;              // "IST"
-    public string timezone_abbreviation; // "GMT+5:30"
-    public DailyData daily;
-}
-
-[Serializable]
-public class DailyData
-{
-    public string[] time;
-    public float[] temperature_2m_max;
-}
-
-// --- MANAGER CLASS ---
 public class WeatherManager : MonoBehaviour
 {
     [Header("Dependencies")]
