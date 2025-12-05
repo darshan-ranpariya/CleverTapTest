@@ -31,7 +31,4 @@ notificationService` field.
  that handles location services and API requests.
     *   `Models/`: Contains the data structures for parsing the API response.
 *   **Assets/Scripts/CleverTapPackage:** A simulated package for handling native notifications.
-    *   `NotificationService.cs`: Implements the platform-specific notification logic
-.
-*   **Assets/Scripts/Test:** Contains unit tests for the application.
-    *   `WeatherTests.cs`: Includes a test for JSON parsing.
+    *   `NotificationService.cs`: Implements the platform-specific notification logic.
